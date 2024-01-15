@@ -6,7 +6,7 @@ type Query {
 
 type Mutation {
   post(url: String!, description: String!): Link!
-  signin(email: String!, password: String!): AuthPayLoad
+  login(email: String!, password: String!): AuthPayLoad
   signup(name: String, email: String!, password: String!): AuthPayLoad
 }
 
