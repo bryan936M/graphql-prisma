@@ -6,13 +6,13 @@ const { getUserId } = require('../utils')
 
 const prisma = new PrismaClient();
 
-const links = [
-  {
-    id: "link-0",
-    url: "www.howtographql.com",
-    description: "Fullstack tutorial for GraphQL",
-  },
-];
+// const links = [
+//   {
+//     id: "link-0",
+//     url: "www.howtographql.com",
+//     description: "Fullstack tutorial for GraphQL",
+//   },
+// ];
 
 const resolvers = {
   Query: {
